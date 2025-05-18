@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Boiletplate
+venv/
+env/
+.env/
+.venv/
+.ruff_cache/
+**/.pytest_cache/
+**/__pycache__/
+dist/
+.coverage
+
