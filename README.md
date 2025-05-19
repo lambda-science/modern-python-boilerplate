@@ -1,5 +1,6 @@
 # Modern Python Boilerplate
-This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.
+This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.  
+Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>  
 
 # Features
 A global `Makefile` to run all the commands. You can run `make help` to see all the available commands.
@@ -46,4 +47,4 @@ From source: `pip install -e .`
 Example 1: `my_package --help`
 
 ## Contact
-Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>
+Creator and Maintainer: [**Your Name**, Your Title](your website) <your@email.com>
