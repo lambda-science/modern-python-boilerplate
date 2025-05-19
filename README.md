@@ -19,12 +19,12 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
 - **Documentation**
   - Mkdocs for documentation building with Markdown `make doc`
   - Automatic build of the API Reference page
-  - Pre-configured GitHub Action / Gitlab CI for publishing the documentation on Github pages / Gitlab pages
+  - Pre-configured GitHub Action / Gitlab CI for publishing the documentation on Github pages / Gitlab page
 - **Running, Publishing and Deploying**
   - Build the pacakge with UV `make build`
   - Publish to PyPi with Twine `make publish`
   - Dockerfile to run in a container `make dockerbuild` and `make dockerrun`
-  - DevContainer pre-configured. `.devcontainer/devcontainer.json`
+  - DevContainer pre-configured. `.devcontainer/devcontainer.json`, working with PyCharm
 
 # How to use
 1. Delete this README.md to replace by you package one.

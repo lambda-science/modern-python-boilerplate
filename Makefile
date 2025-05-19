@@ -17,10 +17,10 @@ help:
 	@echo "  make allci              Run all CI steps (check, format, type, test coverage)"
 
 dev:
-	modern_python_boilerplate
+	uv run modern_python_boilerplate
 
 prod:
-	modern_python_boilerplate
+	uv run modern_python_boilerplate
 
 test:
 	uv run pytest tests/
@@ -47,7 +47,7 @@ publish:
 	uv publish
 
 commit:
-	pre-commit
+	uv run pre-commit
 
 dockerbuild:
 	docker build -t modern-python-boilerplate:latest .

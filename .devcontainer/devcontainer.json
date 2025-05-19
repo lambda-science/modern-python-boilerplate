@@ -1,0 +1,14 @@
+{
+  "name": "Modern Python Boilerplate DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "forwardPorts": [8000],
+  "postCreateCommand": "uv sync && make commit",
+  "remoteUser": "root",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "workspaceFolder": "/workspaces/modern-python-boilerplate"
+}
