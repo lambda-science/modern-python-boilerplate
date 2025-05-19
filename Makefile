@@ -1,3 +1,21 @@
+.PHONY: help
+
+help:
+	@echo "Usage:"
+	@echo "  make dev                Run the package with developer settings"
+	@echo "  make prod               Run the pacakge with production settings"
+	@echo "  make test               CI: Run tests"
+	@echo "  make cov                CI: Run test and calculate coverage"
+	@echo "  make check              CI: Lint the code"
+	@echo "  make format             CI: Format the code"
+	@echo "  make type               CI: Check typing"
+	@echo "  make doc                Run local documentation server"
+	@echo "  make build              Build the package wheel before publishing to Pypi"
+	@echo "  make publish            Publish package to Pypi"
+	@echo "  make dockerbuild        Build the docker image"
+	@echo "  make dockerrun          Run the docker image"
+	@echo "  make allci              Run all CI steps (check, format, type, test coverage)"
+
 dev:
 	modern_python_boilerplate
 

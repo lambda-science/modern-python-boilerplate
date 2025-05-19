@@ -1,0 +1,15 @@
+pages:
+  stage: deploy
+  image: python:latest
+  script:
+    - pip install mkdocs-material mkdocstrings mkdocstrings-python mkdocs-include-markdown-plugin
+    - mkdocs build --site-dir public
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - .cache/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

@@ -1,3 +1,10 @@
+---
+title: Home
+description: ModernPythonBoilerplate
+hide:
+  - navigation
+---
+
 # Modern Python Boilerplate
 This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.
 
@@ -5,10 +12,10 @@ This is my modern python boilerplate. The goal is to provide a good starting poi
 A global `Makefile` to run all the commands. You can run `make help` to see all the available commands.
 
 - **Python Management**
-    - UV for python version management `.python-version`
-    - UV for dependency management `pyproject.toml`
-    - src/package structure
-    - Usage of Project Script to directly call the package like `$ modern_python_boilerplate`
+  - UV for python version management `.python-version`
+  - UV for dependency management `pyproject.toml`
+  - src/package structure
+  - Usage of Project Script to directly call the package like `$ modern_python_boilerplate`
 - **Continuous Integration `make allci`**
   - Ruff for linting `make check`
   - Ruff for formatting `make format`
@@ -19,7 +26,6 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
 - **Documentation**
   - Mkdocs for documentation building with Markdown `make doc`
   - Automatic build of the API Reference page
-  - Pre-configured GitHub Action / Gitlab CI for publishing the documentation on Github pages / Gitlab pages
 - **Running, Publishing and Deploying**
   - Build the pacakge with UV `make build`
   - Publish to PyPi with Twine `make publish`
@@ -30,20 +36,3 @@ A global `Makefile` to run all the commands. You can run `make help` to see all 
 1. Delete this README.md to replace by you package one.
 2. Replace all occurrence of `modern_python_boilerplate` and `modern-python-boilerplate` and `ModernPythonBoilerplate` by your pacakge name. Including folder names in src/.
 3. Get familiar with `make help`, it will show you all the available commands.
-
-***
-
-## Readme Sample for your pacakge
-
-# MyPackage
-This is my package. It does some cool stuff.
-
-## Installation
-From PyPi: `pip install my_package`
-From source: `pip install -e .`
-
-## Usage
-Example 1: `my_package --help`
-
-## Contact
-Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>
