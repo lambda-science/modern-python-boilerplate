@@ -1,6 +1,9 @@
 # Modern Python Boilerplate
 This is my modern python boilerplate. The goal is to provide a good starting point to develop new python project with most up-to-date tooling, structure and good practices.  
-Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>  
+Creator and Maintainer: [**Corentin Meyer**, PhD in Biomedical AI](https://cmeyer.fr) <contact@cmeyer.fr>    
+
+# Pre-Requisites
+This project use [UV](https://github.com/astral-sh/uv) and [Make](https://gnuwin32.sourceforge.net/packages/make.htm), they should be installed.  
 
 # Features
 A global `Makefile` to run all the commands. You can run `make help` to see all the available commands.
