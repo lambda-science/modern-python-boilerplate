@@ -30,15 +30,9 @@ dev = [
     "rich",
 ]
 
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/modern_python_boilerplate"]
-
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["uv_build"]
+build-backend = "uv_build"
 
 [project.scripts]
 modern_python_boilerplate = "modern_python_boilerplate.main:hello_world"
