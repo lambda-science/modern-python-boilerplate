@@ -45,13 +45,6 @@ modern_python_boilerplate = "modern_python_boilerplate.main:hello_world"
 
 [tool.ruff]
 target-version = "py313"
-include = ["src/**/*.py"]
-exclude = [
-    "scripts"
-]
-
-[tool.ruff.lint]
-select = ["E4", "E7", "E9", "F", "T201"]
 
 [tool.coverage.run]
 omit = ["tests/*"]
